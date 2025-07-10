@@ -1,0 +1,14 @@
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+tqdm
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+pytest
+pytest-asyncio
+httpx

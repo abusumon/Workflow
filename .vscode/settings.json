@@ -1,0 +1,25 @@
+{
+    "python.analysis.extraPaths": [
+        "./app",
+        "./tests",
+        "."
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.stubPath": "./typings",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.defaultInterpreterPath": "C:/Users/abusu/anaconda3/envs/chestml/python.exe"
+}
